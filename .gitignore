@@ -1,4 +1,4 @@
-# User-specific files
+node_modules/
 *.suo
 *.user
 *.sln.docstates
