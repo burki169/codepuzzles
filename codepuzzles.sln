@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "love-rectangles", "love-rectangles\love-rectangles.csproj", "{ADD49EEC-D99F-464D-BF15-07DA3042F456}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "find-first-and-last-position-of-element-in-sorted-array", "find-first-and-last-position-of-element-in-sorted-array\find-first-and-last-position-of-element-in-sorted-array.csproj", "{E8490D56-F69B-470D-B816-AA16016D9C01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "plusone", "plusone\plusone.csproj", "{EDAFAB99-7D14-4777-8575-67494DB96F2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD49EEC-D99F-464D-BF15-07DA3042F456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD49EEC-D99F-464D-BF15-07DA3042F456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD49EEC-D99F-464D-BF15-07DA3042F456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD49EEC-D99F-464D-BF15-07DA3042F456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8490D56-F69B-470D-B816-AA16016D9C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8490D56-F69B-470D-B816-AA16016D9C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8490D56-F69B-470D-B816-AA16016D9C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8490D56-F69B-470D-B816-AA16016D9C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAFAB99-7D14-4777-8575-67494DB96F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAFAB99-7D14-4777-8575-67494DB96F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAFAB99-7D14-4777-8575-67494DB96F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAFAB99-7D14-4777-8575-67494DB96F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45A985F2-4D48-4DB1-A9A3-A28F97FADCDB}
+	EndGlobalSection
+EndGlobal
