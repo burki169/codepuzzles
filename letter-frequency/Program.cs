@@ -1,24 +1,34 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 bool EqualizeFrequency(string word){
-    var letterFreq = new Dictionary<char,int>();
-
+    var letters = new int[26];
     for(int i=0; i<word.Length; i++)
     {
-        if( letterFreq.ContainsKey(word[i]) )
-            letterFreq[word[i]]++;
-        else
-            letterFreq.Add(word[i], 1);
+        letters[((int)word[i]-97)]++;
     }
-
-    int sum = 0;
-    var values = letterFreq.Values.ToArray();
-    for(int i=0;i<values.Length-2;i++)
-    {
-        sum += values[i] - values[i+1];
-    }
-
-    return sum == 1 || sum == -1;
     
+    var frequencies = new List<int>(); 
+    for(int i=0;i<letters.Length;i++)
+    {
+        if( letters[i] == 0)
+            continue;
+        frequencies.Add(letters[i]);
+    }        
+
+    for(int i=0; i<frequencies.Count; i++){
+        
+        frequencies[i]--;
+        if( frequencies.Where(p=> p!=0).GroupBy(p => p).Count() == 1)
+            return true;
+        frequencies[i]++;
+
+    }
+    return false;   
 }
 
-Console.WriteLine(EqualizeFrequency("abccdd"));
+Console.WriteLine(EqualizeFrequency("bbac"));
+// 1,1,1,2
+// 1,2,2,2,2
+// 1,3,3,3,3,3
+// 1,1,1,1,3
+// 2,2,2,2,3
+// 3,3,3,3,6
