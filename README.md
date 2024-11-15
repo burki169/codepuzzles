@@ -1,3 +1,3 @@
 # codepuzzles
 
-A repo for solving hacker and leetcode like puzzles
+A repo to centralize some leetcode games
